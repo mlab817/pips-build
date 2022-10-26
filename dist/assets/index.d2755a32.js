@@ -1,0 +1,1 @@
+import{j as s,aO as t,b as n,S as e,A as a,F as c}from"./vendor.717f8fec.js";const d=({office:r,children:o})=>s(t,{title:n(e,{children:[s(a,{style:{backgroundColor:r.color},children:r.acronym}),r.name]}),content:n(c,{children:[s("strong",{children:r.projects_count})," Projects ",s("br",{}),s("strong",{children:r.users_count})," Users"]}),children:o});export{d as O};

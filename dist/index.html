@@ -20,13 +20,44 @@
     <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
 
     <title>PIPSv2</title>
-    <script type="module" crossorigin src="/assets/index.e6e712f2.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vendor.a7738c92.js">
+    <script type="module" crossorigin src="/assets/index.7dcb18bf.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor.717f8fec.js">
     <link rel="stylesheet" href="/assets/index.af617da7.css">
   </head>
   <body>
     <noscript>Javascript must be enabled for the application to work.</noscript>
     <div id="root"></div>
     
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105049522281554");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
 </html>

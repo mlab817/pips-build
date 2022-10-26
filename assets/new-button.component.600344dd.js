@@ -1,1 +1,0 @@
-import{ae as a,b as r,B as o,j as t,ai as p}from"./vendor.a7738c92.js";import{u as i}from"./index.e6e712f2.js";const n=({onClick:s})=>{const{hasPassed:e}=i();return r(o,{type:"primary",onClick:s,disabled:e,children:[t(p,{}),"New"]})};n.propTypes={onClick:a.exports.func};export{n as N};
