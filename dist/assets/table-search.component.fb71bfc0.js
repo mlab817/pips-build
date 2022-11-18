@@ -1,4 +1,4 @@
-import{E as a,ab as r,ai as p,j as s}from"./vendor.717f8fec.js";const t=a(r.Search)`
+import{E as a,ab as r,ai as p,j as s}from"./vendor.f6fa5c08.js";const t=a(r.Search)`
   //width: 240px;
   width: 100%;
   max-width: 360px;
