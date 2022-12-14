@@ -1,1 +1,0 @@
-import{ai as n,j as o,B as s,c as p,aS as r}from"./vendor.f6fa5c08.js";const a=({onClick:t})=>o(s,{icon:o(p,{}),onClick:t});a.propTypes={onClick:n.exports.func};const c=({onClick:t,...e})=>o(s,{type:"default",onClick:t,icon:o(r,{}),...e});a.propTypes={onClick:n.exports.func};export{c as D,a as R};

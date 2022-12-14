@@ -1,1 +1,0 @@
-import{u as e,j as t,a as o,B as s}from"./vendor.4b18af18.js";const u=()=>{const a=e();return t(o,{status:"403",title:"403",subTitle:"Sorry, you are not authorized to access this page.",extra:t(s,{type:"primary",onClick:()=>a("/"),children:"Back Home"})})};export{u as default};
