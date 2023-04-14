@@ -1,4 +1,4 @@
-import{G as a,ad as r,ak as p,j as s}from"./vendor.c9756e39.js";const t=a(r.Search)`
+import{G as a,ad as r,ak as p,j as s}from"./vendor.876bea49.js";const t=a(r.Search)`
   //width: 240px;
   width: 100%;
   max-width: 360px;
