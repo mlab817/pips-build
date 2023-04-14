@@ -1,0 +1,1 @@
+import{ak as o,b as r,B as n,j as p,an as t}from"./vendor.c9756e39.js";import{u as a}from"./index.1e3ba65c.js";const i=({onClick:s})=>{const{submissionOpen:e}=a();return r(n,{type:"primary",onClick:s,disabled:!e,children:[p(t,{}),"New"]})};i.propTypes={onClick:o.exports.func};export{i as N};
